@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+	--geist: 'Geist', sans-serif;
+	--geist-mono: 'Geist Mono', monospace;
+
+	--font-display: var(--geist);
+	--font-mono: var(--geist-mono);
+
+	--color-bg-primary: #f9fafb;
+	--color-text-primary: #4b5563;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--color-bg-primary);
+	color: var(--color-text-primary);
+	font-family: var(--font-display);
+	overflow-x: hidden;
+}
